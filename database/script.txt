@@ -1,0 +1,73 @@
+-- --------------------------------------------------------
+-- Servidor:                     rafaeldatabase
+-- Versão do servidor:           5.5.16-log - MySQL Community Server (GPL)
+-- OS do Servidor:               Win32
+-- HeidiSQL Versão:              9.1.0.4867
+-- --------------------------------------------------------
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8mb4 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+-- Copiando estrutura para tabela rendti_livraria.author
+DROP TABLE IF EXISTS `author`;
+CREATE TABLE IF NOT EXISTS `author` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(500) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=72 DEFAULT CHARSET=utf8;
+
+-- Copiando dados para a tabela rendti_livraria.author: ~12 rows (aproximadamente)
+/*!40000 ALTER TABLE `author` DISABLE KEYS */;
+INSERT INTO `author` (`id`, `name`, `created_at`, `updated_at`) VALUES
+	(1, 'Isaac Newton de Cristo 1', NULL, '2018-10-22 19:31:02'),
+	(3, 'Rubalinho dos anjos', NULL, NULL),
+	(16, 'CLAUDIO LUÍS', NULL, NULL),
+	(54, 'RICARDO BACELAR', NULL, NULL),
+	(64, 'Author 20', NULL, NULL),
+	(65, 'Author 21', NULL, NULL),
+	(66, 'Author 22', NULL, NULL),
+	(67, 'Author 23', NULL, NULL),
+	(68, 'Author 24', NULL, NULL),
+	(69, 'Author 25', NULL, NULL),
+	(70, 'Author 26', NULL, NULL),
+	(71, 'Author 27', NULL, NULL);
+/*!40000 ALTER TABLE `author` ENABLE KEYS */;
+
+
+-- Copiando estrutura para tabela rendti_livraria.book
+DROP TABLE IF EXISTS `book`;
+CREATE TABLE IF NOT EXISTS `book` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(500) DEFAULT NULL,
+  `description` varchar(500) DEFAULT NULL,
+  `isbn` varchar(100) DEFAULT NULL,
+  `stock` int(11) DEFAULT NULL,
+  `author_id` int(11) DEFAULT NULL,
+  `price` decimal(10,2) DEFAULT NULL,
+  `editor` varchar(300) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  `date_release` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `ix_author_id` (`author_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+
+-- Copiando dados para a tabela rendti_livraria.book: ~8 rows (aproximadamente)
+/*!40000 ALTER TABLE `book` DISABLE KEYS */;
+INSERT INTO `book` (`id`, `title`, `description`, `isbn`, `stock`, `author_id`, `price`, `editor`, `created_at`, `updated_at`, `date_release`) VALUES
+	(1, 'Palavras de inri cristo update 001', 'Inri Cristo', '12365412', 2, 1, 12.00, NULL, NULL, '2018-10-22 14:08:55', '1986-11-16 00:10:00'),
+	(2, 'Supercampeões - Uma história 1234', 'A história dos supercampeões, toda a sua saga até o final', '3214565', 5, 3, 11.11, '', NULL, '2018-10-22 14:28:34', '1999-11-12 11:54:00'),
+	(3, 'PostMan edição', 'Edição via postman. Exemplo prático', '333333', 7, 3, 11.56, 'null', NULL, '2018-10-22 04:03:45', NULL),
+	(4, 'Passarinho Feliz', 'A incrível história do passaro', '12365412AAtR', 6, 1, NULL, NULL, NULL, NULL, NULL),
+	(5, 'Passarinho Feliz', 'A incrível história do passaro', '12365412AAtR', 6, 1, NULL, NULL, NULL, NULL, NULL),
+	(6, 'My Special and Amazing Life', NULL, '12365412331', 2, 1, 12.11, 'My Editor', '2018-10-22 04:00:42', '2018-10-22 14:15:45', '2014-10-05 04:05:00'),
+	(9, 'Quero ver começar a paginação', NULL, '123654', 3, 16, 12.50, 'Editor Test', '2018-10-22 04:10:13', '2018-10-22 14:28:15', '2012-05-10 11:15:00'),
+	(10, 'Harry Potter 1', NULL, '123321456', 1, 54, 12.55, 'Editor', '2018-10-22 04:19:36', '2018-10-22 19:30:53', NULL);
+/*!40000 ALTER TABLE `book` ENABLE KEYS */;
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

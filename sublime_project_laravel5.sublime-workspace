@@ -1,0 +1,432 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cha",
+				"ChangeBuscaFiltroText"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"load",
+				"loadData"
+			],
+			[
+				"id",
+				"id_button"
+			],
+			[
+				"len",
+				"lenght"
+			],
+			[
+				"total",
+				"total_produtos"
+			],
+			[
+				"frete",
+				"frete_valor"
+			],
+			[
+				"getVal",
+				"getValorItemPedidoWeb"
+			],
+			[
+				"getT",
+				"getTotalItensCarrinho"
+			],
+			[
+				"getV",
+				"getValorItemPedidoWeb"
+			],
+			[
+				"pedido",
+				"pedido_web"
+			],
+			[
+				"pedi",
+				"pedido_web"
+			],
+			[
+				"obj",
+				"obj_corteaudiovideo"
+			],
+			[
+				"sh",
+				"mouse_show"
+			],
+			[
+				"mouse",
+				"mouseloading"
+			],
+			[
+				"getElement",
+				"getElementsByTagName"
+			],
+			[
+				"locali",
+				"localizaHistoricoAssistidos"
+			],
+			[
+				"re",
+				"restaurantById\tmethod"
+			],
+			[
+				"restu",
+				"restaurants.service\tscript"
+			],
+			[
+				"error",
+				"errorMessage\tlet"
+			],
+			[
+				"t",
+				"throw\tThrow Exception"
+			],
+			[
+				"app",
+				"app.api\tscript"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/Controllers/AuthorController.php",
+			"settings":
+			{
+				"buffer_size": 4188,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 1560,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Kernel.php",
+			"settings":
+			{
+				"buffer_size": 887,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/OpenServers/apache_php5/www/estudos_laravelapi5"
+	],
+	"file_history":
+	[
+		"/D/meus documentos/Cursos/Rafa/React/projeto_modelo_material/src/views/App/author/form-author.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/projeto_modelo_material/src/assets/css/material-origin.css",
+		"/D/meus documentos/Cursos/Rafa/React/projeto_modelo_material/src/index.js",
+		"/D/meus documentos/Cursos/Rafa/React/projeto_modelo_material/src/assets/css/material-dashboard-react.css",
+		"/D/meus documentos/Cursos/Rafa/React/projeto_modelo_material/src/app/author/author.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/projeto_modelo_material/src/routes/index.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/projeto_modelo_material/package.json",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/author/busca-author_old.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/cartao/cartao.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/app.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/grid/grid-column.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/index.html",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/grid/grid.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/author/author.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/grid/grid-paginator.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/grid/grid-item.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/index.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/cartao/lista-cartao.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/navbar/navbar.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/navbar/nav-menu.jsx",
+		"/D/meus documentos/Cursos/Rafa/React/Udemy Curso/projeto/src/js/titulo/titulo.jsx",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/api/index.php",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/api/rendlibrary/Pagamento/IPagamento.php",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/api/rendlibrary/Pagamento/FactoryPagamento.php",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/api/rendlibrary/Pagamento/PagamentoMercadoPago.php",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/api/src/Controller/PedidoController.php",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/admin/library/Util.php",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/inc_pedido_web.php",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/library/pagseguro/inc_pagseguro.php",
+		"/D/OpenServers/apache_php5/www/julio_sig_loja/api/rendlibrary/Db/IDbPersist.php",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/app.routes.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/reviews/reviews.component.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/app.module.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/menu/menu.component.html",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/reviews/reviews.component.html",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/shopping-cart/restaurant-detail.service.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/restaurants/restaurants.service.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/app.error-handler.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/menu/menu.component.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/shopping-cart/shopping-cart.component.html",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/app.component.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/app.api.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/restaurants/restaurants.component.html",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/shopping-cart/shopping-cart.component.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/menu-item/menu-item.component.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/retaurant-detail.component.html",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/retaurant-detail.component.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/retaurant-detail/retaurant-detail.component.spec.ts",
+		"/D/Unidade G/Sistemas/Projetos Web/Rend/Angular/app_ifood/meat-app-starter/src/app/restaurants/restaurants.component.ts"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/AuthorController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3752,
+								3752
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1486,
+								1486
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Kernel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								508,
+								508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime_project_laravel5.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
